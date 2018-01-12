@@ -1,0 +1,7 @@
+<ol>
+  <li *ngFor="let hero of heroes">
+    <b>Name: </b><span>{{ hero.name }}</span> | 
+    <b>Power: </b><span>{{ hero.power }}</span> | 
+    <a routerLink="/hero/{{hero._id}}"><b>EDIT</b></a>
+  </li>
+</ol>
